@@ -1,14 +1,14 @@
-import React from 'react';
-import GlobalStyle from "./Constants/GlobalStyle";
-import TopNavigator from "./Components/TopNavigator/TopNavigator";
+import React from 'react'
+import GlobalStyle from 'Constants/GlobalStyle'
+import TopNavigator from 'Components/TopNavigator/TopNavigator'
 
-function App() {
+const App = () => {
   return (
     <>
-      <GlobalStyle/>
-        <TopNavigator/>
+      <GlobalStyle />
+      <TopNavigator />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
